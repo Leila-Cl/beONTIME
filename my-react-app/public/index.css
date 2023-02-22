@@ -24,12 +24,14 @@ h2{
 
 .BeONTIME App{
     text-align: center;
+    align-self: center;
 }
 
 h1{
     border-color: black;
     border-width: 2px;
 }
+
 
 .timer{
     width: max-content/5;
