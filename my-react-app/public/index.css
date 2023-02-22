@@ -6,39 +6,46 @@ body{
 }
 
 h2{
+    border-style: solid;
     border-color: black;
-    border-width: 2px;
+    border-width: 1px;
 }
 
-#button{
+.markTardy{
+    border-style: solid;
     border-radius: 10%;
-    border-width: 2px;
+    border-color: black;
+    border-width: 1px;
+    font-family: inherit;
 }
 
 .reasoning{
     width: 50px;
     border-color: black;
-    border-width: 2px;
+    border-width: 1px;
 }
 
-
-.BeONTIME App{
-    text-align: center;
-    align-self: center;
-}
 
 h1{
+    margin: auto;
+    text-align: center;
+    width: 40%;
+    border-style: solid;
     border-color: black;
-    border-width: 2px;
+    border-width: 1px;
 }
 
 
-.timer{
-    width: max-content/5;
+
+h3{
+    text-decoration: underline;
+    vertical-align: top;
+    float:right;
+    width: 20%;
+    border-style: solid;
     border-color: black;
-    border-width: 2px;
-    border-radius: 5%;
-    align-self: flex-end;
+    border-width: 1px;
+    border-radius: 2%;
     
     /* get it to be in top right corner*/
 }
