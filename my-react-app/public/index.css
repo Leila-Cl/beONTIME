@@ -35,9 +35,43 @@ h1{
     border-width: 1px;
 }
 
+#juliaM{
+    display:flex;
+    justify-content: space-around;
+}
 
+
+#cooperH{
+    display:flex;
+    justify-content: space-around;
+}
+
+#leilaC{
+    display:flex;
+    justify-content: space-between;
+}
+
+#michaelJ{
+    display:flex;
+    justify-content: space-between;
+}
+
+.name{
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+.reasoning{
+    margin:auto;
+    width: 20%;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}
 
 h3{
+    margin: auto;
     text-decoration: underline;
     vertical-align: top;
     float:right;
@@ -45,7 +79,7 @@ h3{
     border-style: solid;
     border-color: black;
     border-width: 1px;
-    border-radius: 2%;
+    border-radius: 5%;
     
     /* get it to be in top right corner*/
 }
