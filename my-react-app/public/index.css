@@ -19,11 +19,7 @@ h2{
     font-family: inherit;
 }
 
-.reasoning{
-    width: 50px;
-    border-color: black;
-    border-width: 1px;
-}
+
 
 
 h1{
@@ -57,26 +53,35 @@ h1{
 }
 
 .name{
-    width: 15%;
+    width: 45%;
     border-width: 1px;
     border-color: black;
     border-style: solid;
-}
-
-.reasoning{
-    width: 20%;
-    border-width: 1px;
-    border-color: black;
-    border-style: solid;
-}
-
-.Button{
-    width: 10%;
+    text-align: center;
 }
 
 #studentOptions{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.reasoning{
+    width: 45%;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+#area{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Button{
+    height: 100%;
+    width: 100%;
 }
 
 #markPresent{
