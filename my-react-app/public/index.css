@@ -48,26 +48,50 @@ h1{
 
 #leilaC{
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 #michaelJ{
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .name{
+    width: 15%;
     border-width: 1px;
     border-color: black;
     border-style: solid;
 }
 
 .reasoning{
-    margin:auto;
     width: 20%;
     border-width: 1px;
     border-color: black;
     border-style: solid;
+}
+
+.Button{
+    width: 10%;
+}
+
+#studentOptions{
+    display: flex;
+    flex-direction: column;
+}
+
+#markPresent{
+    display: flex;
+    flex-direction: column;
+}
+
+#markTardy{
+    display: flex;
+    flex-direction: column;
+}
+
+#markAbsent{
+    display: flex;
+    flex-direction: column;
 }
 
 h3{
