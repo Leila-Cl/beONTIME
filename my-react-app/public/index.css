@@ -63,6 +63,12 @@ h1{
     border-style: solid;
 }
 
+#studentOptions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 .reasoning{
     width: 20%;
     border-width: 1px;
@@ -70,13 +76,14 @@ h1{
     border-style: solid;
 }
 
-.Button{
-    width: 10%;
+#area{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-#studentOptions{
-    display: flex;
-    flex-direction: column;
+.Button{
+    width: 100%;
 }
 
 #markPresent{
