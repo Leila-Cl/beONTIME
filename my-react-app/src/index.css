@@ -18,3 +18,19 @@ h1{
     border-color: black;
     border-width: 2px;
 }
+
+#markPresent{
+    display:flex;
+    flex-direction: column;
+}
+
+
+#markTardy{
+    display:flex;
+    flex-direction: column;
+}
+
+#markAbsent{
+    display:flex;
+    flex-direction: column;
+}
