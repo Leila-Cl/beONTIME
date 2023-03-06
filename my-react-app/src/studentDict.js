@@ -1,23 +1,16 @@
-var studentProf = {
-    studName: 
-        ["Cooper H.", 
-        "Julia M.", 
-        "Leila C", 
-        "Felix K."],
 
-    studCom: 
-        ["this classroom's kind of chilly", 
-        "at home with the spicy cough",
-        "in the elevator",
-        "running to school rn"],
+const studentProf = {
+        "Cooper" : { "Name": "Cooper. H", 
+                    "Comm": "this classroom's kind of chilly", 
+                    "Photo": "cooperH.png",},
+        "Julia" : { "Name": "Julia M,", 
+                    "Comm": "this classroom's kind of chilly", 
+                    "Photo": "juliaM.png",},
+        "Leila" : { "Name": "Leila C.", 
+                    "Comm": "in the elevator! ", 
+                    "Photo": "leilaC.png",}
+    }
 
-    studPhoto: 
-        ["juliaM.png", 
-            "cooperH.png", 
-            "leilaC.png"]
-    };
+    console.log(studentProf["Cooper"]["Name"])
+//     console.log(studentProf["Comm"])
 
-
-
-    console.log(studentProf[studName])
-    console.log(studentProf[studCom])
