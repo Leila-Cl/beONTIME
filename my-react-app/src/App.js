@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import studentProf from './studentDict'
+import { studentProf } from './studentDict'
 
 // const timer = () => {
 //     let year = new Date().getFullYear();
@@ -30,11 +30,13 @@ import studentProf from './studentDict'
 // const timerComponents = [];
 
 
-function App() {
-    render(){
-      return(
-        <div>{studentProf["Cooper"]["Name"]}</div>
-    );
-}}
+function App(props) {
+  // console.log(studentProf)
+  return (
+    <div>
+      <div>{studentProf["Cooper"]["Name"]}</div>
+    </div>
+  );
+}
 
 export default App;
