@@ -2,35 +2,116 @@
 
 body{
     font-family: 'Flamenco';
+    background-color: gainsboro;
+}
+
+h2{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+.markTardy{
+    border-style: solid;
+    border-radius: 10%;
+    border-color: black;
+    border-width: 1px;
+    font-family: inherit;
 }
 
 
-.BeONTIME App{
+
+
+h1{
+    margin: auto;
+    text-align: center;
+    width: 40%;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+#juliaM{
+    display:flex;
+    justify-content: space-between;
+}
+
+
+#cooperH{
+    display:flex;
+    justify-content: space-between;
+}
+
+#leilaC{
+    display:flex;
+    justify-content: space-between;
+}
+
+#michaelJ{
+    display:flex;
+    justify-content: space-between;
+}
+
+.name{
+    padding-top: 5%;
+    width: 45%;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
     text-align: center;
 }
 
-h1{
-    border-color: black;
-    border-width: 2px;
+#studentOptions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
-.timer{
+.reasoning{
+    padding: 5px;
+    text-align: center;
+    width: 43%;
+    border-width: 1px;
     border-color: black;
-    border-width: 2px;
+    border-style: solid;
+}
+
+#area{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.Button{
+    height: 100%;
+    width: 100%;
 }
 
 #markPresent{
-    display:flex;
+    display: flex;
     flex-direction: column;
 }
 
-
 #markTardy{
-    display:flex;
+    display: flex;
     flex-direction: column;
 }
 
 #markAbsent{
-    display:flex;
+    display: flex;
     flex-direction: column;
+}
+
+h3{
+    margin: auto;
+    text-decoration: underline;
+    vertical-align: top;
+    float:right;
+    width: 20%;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 5%;
+    
+    /* get it to be in top right corner*/
 }

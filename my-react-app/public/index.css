@@ -33,26 +33,27 @@ h1{
 
 #juliaM{
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 
 #cooperH{
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 #leilaC{
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 #michaelJ{
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .name{
+    padding-top: 5%;
     width: 45%;
     border-width: 1px;
     border-color: black;
@@ -63,11 +64,13 @@ h1{
 #studentOptions{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .reasoning{
-    width: 45%;
+    padding: 5px;
+    text-align: center;
+    width: 43%;
     border-width: 1px;
     border-color: black;
     border-style: solid;
@@ -76,7 +79,7 @@ h1{
 #area{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .Button{
