@@ -31,10 +31,24 @@ import { studentProf } from './studentDict'
 
 
 function App(props) {
-  // console.log(studentProf)
+  
+  
+
   return (
     <div>
-      <div>{studentProf["Cooper"]["Name"]}</div>
+      <div class="studProf">
+           {studentProf["Cooper"]["Name"]}
+           {studentProf["Cooper"]["Comm"]} 
+           {studentProf["Cooper"]["Photo"]}</div>
+
+        <div class="studProf">
+          {studentProf["Julia"]["Name"]}
+          {studentProf["Julia"]["Comm"]} 
+          {studentProf["Julia"]["Photo"]}</div>
+        <div class="studProf">
+          {studentProf["Leila"]["Name"]}
+          {studentProf["Leila"]["Comm"]} 
+          {studentProf["Leila"]["Photo"]}</div>
     </div>
   );
 }
