@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/webEbeONTIME/static/css/main.8d7dccb2.css",
+    "main.js": "/webEbeONTIME/static/js/main.887ebf68.js",
+    "index.html": "/webEbeONTIME/index.html",
+    "main.8d7dccb2.css.map": "/webEbeONTIME/static/css/main.8d7dccb2.css.map",
+    "main.887ebf68.js.map": "/webEbeONTIME/static/js/main.887ebf68.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8d7dccb2.css",
+    "static/js/main.887ebf68.js"
+  ]
+}
